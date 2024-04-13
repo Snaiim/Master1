@@ -108,3 +108,42 @@ public class MyLinkedList<E> implements MyList<E> {
         return current;
     }
 }
+
+
+public class MyLinkedList<E> implements MyList<E> {
+    // Ваш существующий код класса
+
+    @Override
+    public void add(E element) {
+        // Логика добавления элемента в список LinkedList
+    }
+
+    @Override
+    public void add(int index, E element) {
+        // Логика добавления элемента по индексу в список LinkedList
+    }
+
+    @Override
+    public E get(int index) {
+        // Логика получения элемента по индексу из списка LinkedList
+        return null; // замените на соответствующую логику
+    }
+
+    @Override
+    public E remove(int index) {
+        // Логика удаления элемента по индексу из списка LinkedList
+        return null; // замените на соответствующую логику
+    }
+
+    @Override
+    public int size() {
+        // Логика получения размера списка LinkedList
+        return 0; // замените на соответствующую логику
+    }
+
+    @Override
+    public boolean isEmpty() {
+        // Логика проверки списка LinkedList на пустоту
+        return false; // замените на соответствующую логику
+    }
+}
